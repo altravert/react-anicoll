@@ -145,8 +145,8 @@ BlgList = React.createClass do
     React.DOM.div {}, @props.children.map (child) -> React.createElement 'div', { key:child.key, ref:child.key }, child
 
 
-if (typeof exports)?
-  exports = module.exports = BlgList if (typeof module)? && module.exports
+if exports?
+  exports = module.exports = BlgList if module?.exports
   exports.Anicoll = BlgList
 else
   @Anicoll = BlgList
