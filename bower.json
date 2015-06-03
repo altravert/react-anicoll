@@ -1,0 +1,40 @@
+{
+  "name": "react-anicoll",
+  "version": "0.0.0",
+  "homepage": "https://github.com/altravert/react-anicoll",
+  "authors": [
+    "Ingvarr Bulgakov <ialtravert@gmail.com>"
+  ],
+  "description": "Reactjs-type which animates reordering, adding and removing children items",
+  "dependencies": {
+    "jquery": "latest",
+    "velocity": "latest",
+    "react": ">=0.12.2"
+  },
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "collection",
+    "animation",
+    "list"
+  ],
+  "main": [
+    "dist/main.js",
+    "dist/main.min.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "build.sh",
+    "*.sublime*"
+  ]
+}

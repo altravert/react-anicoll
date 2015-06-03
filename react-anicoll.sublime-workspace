@@ -1,0 +1,959 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Re",
+				"require"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"Ma",
+				"MagicMoveClones"
+			],
+			[
+				"news",
+				"newsBlueColor"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"prp",
+				"props"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"create",
+				"createClass"
+			],
+			[
+				"rele",
+				"releaseStylesRemovig"
+			],
+			[
+				"de",
+				"debugStylesRemoving"
+			],
+			[
+				"styl",
+				"stylesRemoving"
+			],
+			[
+				"styles",
+				"stylesMoving"
+			],
+			[
+				"c",
+				"config"
+			],
+			[
+				"heig",
+				"heightDiff"
+			],
+			[
+				"he",
+				"heightDiff"
+			],
+			[
+				"anim",
+				"animEnd"
+			],
+			[
+				"get",
+				"getDOMNode"
+			],
+			[
+				"sw",
+				"swing"
+			],
+			[
+				"prev",
+				"prevPositions"
+			],
+			[
+				"te",
+				"text	param"
+			],
+			[
+				"app",
+				"appendTo	statement"
+			],
+			[
+				"in",
+				"indent	statement"
+			],
+			[
+				"__",
+				"__init__	init"
+			],
+			[
+				"fin",
+				"finditer	function"
+			],
+			[
+				"stac",
+				"stack	statement"
+			],
+			[
+				"edi",
+				"edit"
+			],
+			[
+				"su",
+				"sublime_plugin"
+			],
+			[
+				"delet",
+				"deleter	(function)"
+			],
+			[
+				"del",
+				"deleter	(function)"
+			],
+			[
+				"dele",
+				"deleter	function"
+			],
+			[
+				"std",
+				"stdout	None,"
+			],
+			[
+				"Sub",
+				"subprocess	module"
+			],
+			[
+				"sub",
+				"subprocess	module"
+			],
+			[
+				"view",
+				"view_destroyed"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main.ls",
+			"settings":
+			{
+				"buffer_size": 5105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 679,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "bash: no job control in this shell\nbash-3.2$ lsc ./main.ls\nFailed at: ./main.ls\n[SyntaxError: unmatched `)` on line 147]\nbash-3.2$ lsc ./main.ls\nFailed at: ./main.ls\nReferenceError: React is not defined\n    at Object.<anonymous> (/Users/bulgakov/development/react-anicoll/main.ls:7:18)\n 3|  * Date: 30.05.15\n 4|  * Time: 20:29\n 5|  */\n 6| var cloneWithProps, debugStylesMoving, releaseStylesMoving, debugStylesRemoving, releaseStylesRemovig, Clone, Clones, BlgList, exports;\n 7+ cloneWithProps = React.addons.cloneWithProps;\n 8| Array.prototype.map = function(f){\n 9|   var i$, len$, x, results$ = [];\n10|   for (i$ = 0, len$ = this.length; i$ < len$; ++i$) {\n11|     x = this[i$];\n    at Module._compile (module.js:460:26)\n    at Object.LiveScript.run (/usr/local/lib/node_modules/LiveScript/lib/node.js:22:19)\n    at compileScript (/usr/local/lib/node_modules/LiveScript/lib/command.js:173:29)\n    at /usr/local/lib/node_modules/LiveScript/lib/command.js:101:9\n    at /usr/local/lib/node_modules/LiveScript/lib/command.js:91:5\n    at fs.js:334:14\n    at FSReqWrap.oncomplete (fs.js:95:15)\nbash-3.2$ lsc ./src/main.ls\nFailed at: ./src/main.ls\nError: Cannot find module 'react'\n    at Function.Module._resolveFilename (module.js:336:15)\n    at Function.Module._load (module.js:278:25)\n    at Module.require (module.js:365:17)\n    at require (module.js:384:17)\n    at Object.<anonymous> (/Users/bulgakov/development/react-anicoll/src/main.ls:8:11)\n 4|  * Time: 20:29\n 5|  */\n 6| var React, debugStylesMoving, releaseStylesMoving, debugStylesRemoving, releaseStylesRemovig, Clone, Clones, BlgList, exports;\n 7| if (typeof require != 'undefined' && require !== null) {\n 8+   React = require('react');\n 9| } else {\n10|   React = this.React;\n11| }\n12| Array.prototype.map = function(f){\n    at Module._compile (module.js:460:26)\n    at Object.LiveScript.run (/usr/local/lib/node_modules/LiveScript/lib/node.js:22:19)\n    at compileScript (/usr/local/lib/node_modules/LiveScript/lib/command.js:173:29)\n    at /usr/local/lib/node_modules/LiveScript/lib/command.js:101:9\n    at /usr/local/lib/node_modules/LiveScript/lib/command.js:91:5\nbash-3.2$ lsc ./src/main.ls\nFailed at: ./src/main.ls\nError: Cannot find module 'react'\n    at Function.Module._resolveFilename (module.js:336:15)\n    at Function.Module._load (module.js:278:25)\n    at Module.require (module.js:365:17)\n    at require (module.js:384:17)\n    at Object.<anonymous> (/Users/bulgakov/development/react-anicoll/src/main.ls:8:11)\n 4|  * Time: 20:29\n 5|  */\n 6| var React, debugStylesMoving, releaseStylesMoving, debugStylesRemoving, releaseStylesRemovig, Clone, Clones, BlgList, exports;\n 7| if (typeof require != 'undefined' && require !== null) {\n 8+   React = require('react');\n 9| } else {\n10|   React = this.React;\n11| }\n12| Array.prototype.map = function(f){\n    at Module._compile (module.js:460:26)\n    at Object.LiveScript.run (/usr/local/lib/node_modules/LiveScript/lib/node.js:22:19)\n    at compileScript (/usr/local/lib/node_modules/LiveScript/lib/command.js:173:29)\n    at /usr/local/lib/node_modules/LiveScript/lib/command.js:101:9\n    at /usr/local/lib/node_modules/LiveScript/lib/command.js:91:5\nbash-3.2$ lsc -h\nUsage: lsc [option]... [file]...\n\nUse 'lsc' with no options to start REPL.\n\nMisc:\n  -v, --version              display version\n  -h, --help                 display this help message\n  -c, --compile              compile to JavaScript and save as .js files\n  -e, --eval code::String    pass as string from the command line as input\n  -d, --prelude              automatically import prelude.ls in REPL\n  -r, --require paths::[String]  require libraries before executing\n  -s, --stdin                read stdin\n  -j, --json                 print/compile as JSON\n  -n, --nodejs               pass options after this through to the 'node' binary\n  -w, --watch                watch scripts for changes, and repeat\n  --const                    compile all variables as constants\n\nOutput control:\n  -o, --output path::String  compile into the specified directory\n  -p, --print                print the result to stdout\n  -b, --bare                 compile without the top-level function wrapper\n  --header                   add \"Generated by\" header, '--no-header' to suppress - default: true\n  -l, --lex                  print the tokens the lexer produces\n  -t, --tokens               print the tokens the rewriter produces\n  -a, --ast                  print the syntax tree the parser produces\n\nVersion 1.3.1\n<http://livescript.net/>\nbash-3.2$ lsc -c\nbash: [3462: 1] tcsetattr: Inappropriate ioctl for device\nbash-3.2$ lsc -c -n ./src/main.ls\nchild_process: customFds option is deprecated, use stdio instead.\n/Users/bulgakov/development/react-anicoll/src/main.ls:7\nif require?\n   ^^^^^^^\nSyntaxError: Unexpected identifier\n    at exports.runInThisContext (vm.js:73:16)\n    at Module._compile (module.js:443:25)\n    at Object.Module._extensions..js (module.js:478:10)\n    at Module.load (module.js:355:32)\n    at Function.Module._load (module.js:310:12)\n    at Function.Module.runMain (module.js:501:10)\n    at startup (node.js:129:16)\n    at node.js:814:3\nbash-3.2$ lsc -c ./src/main.ls\nbash-3.2$ minjs\nbash: minjs: command not found\nbash-3.2$ yuicompressor -o '.js$:-min.js' *.js ./src/main.js\njava.io.FileNotFoundException: *.js (No such file or directory)\n	at java.io.FileInputStream.open(Native Method)\n	at java.io.FileInputStream.<init>(FileInputStream.java:131)\n	at java.io.FileInputStream.<init>(FileInputStream.java:87)\n	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:133)\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n	at java.lang.reflect.Method.invoke(Method.java:483)\n	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)\nbash-3.2$ yuicompressor -o '*.js$:-min.js' *.js ./src/main.js\njava.io.FileNotFoundException: *.js (No such file or directory)\n	at java.io.FileInputStream.open(Native Method)\n	at java.io.FileInputStream.<init>(FileInputStream.java:131)\n	at java.io.FileInputStream.<init>(FileInputStream.java:87)\n	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:133)\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n	at java.lang.reflect.Method.invoke(Method.java:483)\n	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)\nbash-3.2$ yuicompressor -o '*.js$:-min.js' ./src/main.js\nException in thread \"main\" java.lang.reflect.InvocationTargetException\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n	at java.lang.reflect.Method.invoke(Method.java:483)\n	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)\nCaused by: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0\n*.js$\n^\n	at java.util.regex.Pattern.error(Pattern.java:1955)\n	at java.util.regex.Pattern.sequence(Pattern.java:2123)\n	at java.util.regex.Pattern.expr(Pattern.java:1996)\n	at java.util.regex.Pattern.compile(Pattern.java:1696)\n	at java.util.regex.Pattern.<init>(Pattern.java:1351)\n	at java.util.regex.Pattern.compile(Pattern.java:1028)\n	at java.lang.String.replaceFirst(String.java:2165)\n	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:139)\n	... 5 more\nbash-3.2$ yuicompressor -o '.js$:-min.js' ./src/main.js\nbash-3.2$ yuicompressor -o '.js$:.min.js' ./src/main.js\nbash-3.2$ #! sh\nbash-3.2$ lsc -c ./src/main.ls\nbash-3.2$ yuicompressor -o '.js$:.min.js' ./src/main.js\nbash-3.2$ \nbash-3.2$ lsc -h\nUsage: lsc [option]... [file]...\n\nUse 'lsc' with no options to start REPL.\n\nMisc:\n  -v, --version              display version\n  -h, --help                 display this help message\n  -c, --compile              compile to JavaScript and save as .js files\n  -e, --eval code::String    pass as string from the command line as input\n  -d, --prelude              automatically import prelude.ls in REPL\n  -r, --require paths::[String]  require libraries before executing\n  -s, --stdin                read stdin\n  -j, --json                 print/compile as JSON\n  -n, --nodejs               pass options after this through to the 'node' binary\n  -w, --watch                watch scripts for changes, and repeat\n  --const                    compile all variables as constants\n\nOutput control:\n  -o, --output path::String  compile into the specified directory\n  -p, --print                print the result to stdout\n  -b, --bare                 compile without the top-level function wrapper\n  --header                   add \"Generated by\" header, '--no-header' to suppress - default: true\n  -l, --lex                  print the tokens the lexer produces\n  -t, --tokens               print the tokens the rewriter produces\n  -a, --ast                  print the syntax tree the parser produces\n\nVersion 1.3.1\n<http://livescript.net/>\nbash-3.2$ #! sh\nbash-3.2$ lsc -c ./src/main.ls -o ./dist/main.ls\nbash-3.2$ yuicompressor -o '.js$:.min.js' ./dist/main.js\njava.io.FileNotFoundException: ./dist/main.js (No such file or directory)\n	at java.io.FileInputStream.open(Native Method)\n	at java.io.FileInputStream.<init>(FileInputStream.java:131)\n	at java.io.FileInputStream.<init>(FileInputStream.java:87)\n	at com.yahoo.platform.yui.compressor.YUICompressor.main(YUICompressor.java:133)\n	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n	at java.lang.reflect.Method.invoke(Method.java:483)\n	at com.yahoo.platform.yui.compressor.Bootstrap.main(Bootstrap.java:21)\nbash-3.2$ \nbash-3.2$ #! sh\nbash-3.2$ lsc -c ./src/main.ls -o ./dist/\nbash-3.2$ yuicompressor -o '.js$:.min.js' ./dist/main.js\nbash-3.2$ \nbash-3.2$ lsc -h",
+			"settings":
+			{
+				"buffer_size": 10275,
+				"line_ending": "Unix",
+				"name": "*REPL* [shell]",
+				"scratch": true
+			}
+		},
+		{
+			"file": "build.sh",
+			"settings":
+			{
+				"buffer_size": 85,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Run virtualenv python",
+					""
+				],
+				[
+					"Run virtualenv python",
+					"Run all Tests"
+				]
+			],
+			[
+				"Run virtualenv python",
+				"Run all Tests"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 93.0,
+		"last_filter": "lives",
+		"selected_items":
+		[
+			[
+				"lives",
+				"Set Syntax: LiveScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"coff",
+				"SublimeREPL: CoffeeScript"
+			],
+			[
+				"coffee",
+				"Set Syntax: Gruntfile Coffee"
+			],
+			[
+				"ts",
+				"Tsunami: Run server"
+			],
+			[
+				"pep8",
+				"User: Python PEP8 Autoformat"
+			],
+			[
+				"dja",
+				"Django: Run Server"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"tru",
+				"Tsunami: Run server"
+			],
+			[
+				"set ",
+				"Set Syntax: Python"
+			],
+			[
+				"tsun",
+				"Tsunami: Run server"
+			],
+			[
+				"anac",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"run",
+				"Tsunami: Run server"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"tsu",
+				"Tsunami: Run server"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"virt",
+				"Build With: Python + Virtualenv"
+			],
+			[
+				"buil",
+				"Build With: Python + Virtualenv"
+			],
+			[
+				"virtu",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"pytho",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"bo",
+				"Bower: Install"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python"
+			],
+			[
+				"termi",
+				"Terminality: Browse Commands..."
+			],
+			[
+				"soda",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"qui",
+				"File: Quick File Open"
+			],
+			[
+				"",
+				"Bower: Discover packages"
+			],
+			[
+				"bow",
+				"Bower: Install"
+			],
+			[
+				"proje",
+				"Bower: Configure project"
+			],
+			[
+				"proj",
+				"Project: Add Folder"
+			],
+			[
+				"pro",
+				"Project: Add Folder"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"term",
+				"Preferences: Terminality Settings – Default"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 456.0
+	},
+	"console":
+	{
+		"height": 192.0,
+		"history":
+		[
+			"view.run_command(\"Tsunami\")",
+			"view.run_command(\"tsunami\")",
+			"view.run_command(\"Tsunami\")",
+			"view.run_command(\"example\")",
+			"view.run_command(\"Tsunami\")",
+			"view.run_command(\"example\")",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/bulgakov/development/react-anicoll",
+		"/Users/bulgakov/development/react-anicoll/bower_components",
+		"/Users/bulgakov/development/react-anicoll/dist",
+		"/Users/bulgakov/development/react-anicoll/src"
+	],
+	"file_history":
+	[
+		"/Users/bulgakov/development/react-anicoll/src/main.min.js",
+		"/Users/bulgakov/PycharmProjects/lentach/.hgignore",
+		"/Users/bulgakov/PycharmProjects/lentach/sass/monitor.sass",
+		"/Users/bulgakov/PycharmProjects/lentach/static/js/blg-list.ls",
+		"/Users/bulgakov/PycharmProjects/lentach/static/main.sass",
+		"/Users/bulgakov/PycharmProjects/lentach/sass/news.sass",
+		"/Users/bulgakov/PycharmProjects/lentach/scripts/monitor/news-top-tab.coffee",
+		"/Users/bulgakov/PycharmProjects/lentach/scripts/second/blg-jquery-easing.coffee",
+		"/Users/bulgakov/PycharmProjects/lentach/bower_components/react/react-with-addons.js",
+		"/Users/bulgakov/PycharmProjects/lentach/scripts/monitor/blg-list.ls",
+		"/Users/bulgakov/PycharmProjects/lentach/news_factory/views.py",
+		"/Users/bulgakov/PycharmProjects/lentach/news/views.py",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Tsunami/Tsunami.py",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Django Manage Commands/DjangoCommands.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Tsunami/Default.sublime-commands",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bulgakov/PycharmProjects/nebulae/nebulae.sublime-project",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Tsunami/Tsunami.sublime-settings",
+		"/Users/bulgakov/PycharmProjects/nebulae/evade.py",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/User/Tsunami.sublime-settings",
+		"/Library/Frameworks/Python.framework/Versions/3.4/lib/python3.4/subprocess.py",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/sublimerepl.py",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/sublimerepl_build_system_hack.py",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/Main.sublime-menu",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/Default.sublime-commands",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/Context.sublime-menu",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL (OSX).sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/QuickFileOpen/README.md",
+		"/Users/bulgakov/PycharmProjects/nebulae/app/coffee/notes.coffee",
+		"/Users/bulgakov/PycharmProjects/nebulae/app/assets.py",
+		"/Users/bulgakov/PycharmProjects/nebulae/manage.py",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/SublimePythonIDE/SublimePython.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
+		"/Users/bulgakov/PycharmProjects/nebulae/__init__.py",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Virtualenv/Virtualenv.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/User/QuickFileOpen.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Terminality/README.md",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Djaneiro/Settings/Python (Django).sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Djaneiro/Settings/HTML (Django).sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/Users/bulgakov/PycharmProjects/nebulae/Run Server.sublime-build",
+		"/Users/bulgakov/PycharmProjects/nebulae/.bowerrc",
+		"/Users/bulgakov/web/nebulae/app/assets.py",
+		"/Users/bulgakov/web/nebulae/nebulae.sublime-project",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Settings/SideBarEnhancements.json",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/User/SyntaxMgr.sublime-settings",
+		"/Users/bulgakov/web/nebulae/run nebulae.sublime-build",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/User/untitled.sublime-project",
+		"/Users/bulgakov/Library/Application Support/Sublime Text 3/Packages/Terminality/Terminality.sublime-settings",
+		"/Users/bulgakov/PycharmProjects/lentach/Semantic-UI/semantic.json",
+		"/Users/bulgakov/PycharmProjects/lentach/django_project/static/semantic/semantic.css",
+		"/Users/bulgakov/PycharmProjects/lentach/django_project/static/semantic/semantic.js",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/themes/lentach/globals/site.variables",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/themes/lentach/elements/button.variables",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/semantic.json",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/package.json",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/theme.less",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/theme.config",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/themes/github/elements/step.overrides",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/themes/lentach/elements/button.overrides",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/dist/semantic.css",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/definitions/globals/site.less",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/definitions/elements/button.less",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/site/elements/button.overrides",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/themes/github/elements/button.variables",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/themes/github/elements/button.overrides",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/definitions/elements/header.less",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/themes/lentach/elements/input.variables",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/themes/lentach/elements/list.variables",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/themes/lentach/globals/reset.variables",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/site/elements/button.variables",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/site/globals/site.overrides",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/site/globals/site.variables",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/semantic.less",
+		"/Users/bulgakov/Downloads/Semantic-UI-1.10.3/src/themes/lentach/globals/site.overrides",
+		"/Users/bulgakov/untitled folder 2/share42.js",
+		"/Users/bulgakov/Downloads/LentachHub/media/css/main.css"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 91.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cloneWithProps",
+			"\",\n",
+			"return",
+			"get_top_news",
+			"$shadow",
+			"offscreen-menu",
+			"shadow",
+			"offscreen-menu",
+			"fb_likes",
+			"additionalControlButtons",
+			"tb",
+			"request",
+			"Request",
+			"request",
+			"if",
+			"transi",
+			"rowClass",
+			"top-row",
+			"conso",
+			"console",
+			"$offm",
+			"$off",
+			"teal",
+			"& ",
+			"news-row-a",
+			"placehol",
+			"componentdidm",
+			"react.i",
+			"react.di",
+			"buttonsAddClass",
+			"log",
+			"n",
+			"false",
+			"700",
+			"componentDidMount",
+			"load_settings",
+			"EventListener",
+			"}\n",
+			"\".\"\n",
+			"virtuale",
+			"trial",
+			"run_command",
+			"command",
+			"manage",
+			"repl_pass",
+			"available_signals",
+			"on_close",
+			"call_on_close",
+			"ReplView",
+			"call_on_close",
+			"import",
+			"\"default_extend_env\"",
+			"\"indent_guide_options\": [\"draw_normal\"],",
+			"video",
+			"Released",
+			"lightTextColor",
+			"oneWide",
+			"lightTextColor",
+			"lightGrey",
+			".ui.disabled.button",
+			"disabled",
+			"f00",
+			"disabled",
+			".8",
+			"disab",
+			"bac",
+			"disab",
+			"shado",
+			"bor",
+			"sha",
+			"disa",
+			"divid",
+			"radi",
+			"shadow",
+			"border",
+			"disa"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"React.cloneElement",
+			"cloneWithProps",
+			"React.cloneElement"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main.ls",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/LiveScript/Syntaxes/LiveScript.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								671,
+								671
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Theme - Cyanide/Cyanide/file_types/Bower JSON.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10275,
+								10275
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"default_dir": "/Users/bulgakov/development/react-anicoll",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "shell",
+							"repl_id": "9c8c240404a94aa1b129767126a48e2b",
+							"repl_restart_args":
+							{
+								"cmd":
+								{
+									"linux":
+									[
+										"bash",
+										"-i"
+									],
+									"osx":
+									[
+										"bash",
+										"-i"
+									],
+									"windows":
+									[
+										"cmd.exe"
+									]
+								},
+								"cmd_postfix": "\n",
+								"cwd": "$file_path",
+								"encoding":
+								{
+									"linux": "utf-8",
+									"osx": "utf-8",
+									"windows": "$win_cmd_encoding"
+								},
+								"env":
+								{
+								},
+								"external_id": "shell",
+								"suppress_echo": true,
+								"syntax": "Packages/Text/Plain text.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2326.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "build.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+							"syntax_mgr_loaded": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 97.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Run virtualenv python",
+	"project": "react-anicoll.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"coll",
+				"lentach/news/collector_shares.py"
+			],
+			[
+				"",
+				"lentach/news/views.py"
+			],
+			[
+				"vie",
+				"lentach/news/views.py"
+			],
+			[
+				"list",
+				"scripts/monitor/news-list-tab.coffee"
+			],
+			[
+				"url",
+				"lentach/django_project/urls.py"
+			],
+			[
+				"moni",
+				"lentach/sass/monitor.sass"
+			],
+			[
+				"sass",
+				"lentach/sass/monitor.sass"
+			],
+			[
+				"vi",
+				"lentach/news/views.py"
+			],
+			[
+				"shar",
+				"lentach/news/collector_shares.py"
+			],
+			[
+				"mode",
+				"lentach/news/models.py"
+			],
+			[
+				"newsco",
+				"scripts/monitor/news-component.coffee"
+			],
+			[
+				"compo",
+				"scripts/monitor/news-component.coffee"
+			],
+			[
+				"new",
+				"scripts/monitor/news.coffee"
+			],
+			[
+				"news-l",
+				"scripts/monitor/news-list-tab.coffee"
+			],
+			[
+				"mai",
+				"sass/main.sass"
+			],
+			[
+				"mod",
+				"news/models.py"
+			],
+			[
+				"sett",
+				"django_project/settings.py"
+			],
+			[
+				"news",
+				"sass/news.sass"
+			],
+			[
+				"monitor.s",
+				"sass/monitor.sass"
+			],
+			[
+				"compon",
+				"scripts/monitor/news-component.coffee"
+			],
+			[
+				"top",
+				"scripts/monitor/news-top-tab.coffee"
+			],
+			[
+				"easi",
+				"scripts/second/blg-jquery-easing.coffee"
+			],
+			[
+				"top-",
+				"scripts/monitor/news-top-tab.coffee"
+			],
+			[
+				"list.ls",
+				"static/js/blg-list.ls"
+			],
+			[
+				"view",
+				"news/views.py"
+			],
+			[
+				"ma",
+				"manage.py"
+			],
+			[
+				"man",
+				"manage.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 139.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 3
+	}
+}
