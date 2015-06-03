@@ -151,5 +151,5 @@ if exports?
 else
   @Anicoll = BlgList
 
-if typeof define === 'function' && define.amd
+if (typeof define) == 'function' && define.amd
   define 'Anicoll', [], -> BlgList
