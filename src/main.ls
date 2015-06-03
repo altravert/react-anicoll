@@ -4,10 +4,12 @@
  * Time: 20:29
  */
 
-if require?
-  React = require('react')
-else
-  React = @React
+# if require?
+#   React = require('react')
+#   Velocity = require('velocity')
+# else
+React = @React
+Velocity = @Velocity
 
 Array::map = (f) -> (for x in @ then f x)
 Array::map_ = (f) !-> for x in @ then f x
